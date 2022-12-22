@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-lg news-naw" style="background: rgba(28, 28, 28, 0.75)">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"><img src="/assets/img/logo.png" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/news.html">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/hero.html">Персонажи</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="bg-news">
+        <div class="owl-carousel owl-theme">
+          <div class="block-div">
+            <img class="img-hero" src="/assets/img/news/akitsu.jpg" alt="" />
+            <h3>Тизер «Акицу Ханэасоби»</h3>
+            <p>Привет, Путешественники! Событие «Акицу Кимодамэси» скоро начнётся! Давайте узнаем его правила!</p>
+          </div>
+          <div class="block-div">
+            <img class="img-hero" src="/assets/img/news/hystory.png" alt="" />
+            <h3>Браузерное событие «Истории ёкаев» началось! Участвуйте!</h3>
+            <p>Стартовало временное браузерное событие «Истории ёкаев». Давайте вместе напишем лёгкий роман!</p>
+          </div>
+          <div class="block-div">
+            <img class="img-hero" src="/assets/img/news/tiktok.jpg" alt="" />
+            <h3>Событие коротких видео версии 3.3 в TikTok</h3>
+          </div>
+          <div class="block-div">
+            <img class="img-hero" src="/assets/img/news/tizer.jpg" alt="" />
+            <h3>Описание события «Акицу Кимодамэси»</h3>
+            <p>«Акицу Ханэасоби» - это, если говорить кратко, испытание на скорость, выносливость и управление отскоком, в котором отбиваешь мячи хагоитой в цели.</p>
+          </div>
+          <div class="block-div">
+            <img class="img-hero" src="/assets/img/news/video.jpg" alt="" />
+            <h3>Видео Genshin Impact на TGA 2022</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+      <div class="container-md">
+        <div class="footer-block">
+          <img src="/assets/img/logo.png" alt="" class="col-12" />
+          <div class="text-footer col-12">
+            <p class="topic-header">Написать мне в <a href="https://vk.com/vr2ka">VK</a></p>
+            <p class="topic-header"><a href="https://github.com/VladislavRyutin/arcade_superman">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/assets/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+    <script src="/assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 150,
+        nav: true,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  </body>
+</html>
