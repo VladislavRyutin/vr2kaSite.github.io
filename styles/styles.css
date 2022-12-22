@@ -28,7 +28,7 @@ body {
   background-color: rgba(28, 28, 28, 0.75);
 }
 .bg-img {
-  background-image: url(assets/img/bgHomeBlur.jpg);
+  background-image: url(/assets/img/bgHomeBlur.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 70px;
@@ -63,35 +63,35 @@ body {
   display: flex;
 }
 .mon {
-  background-image: url(assets/img/bgMonBlur.jpg);
+  background-image: url(/assets/img/bgMonBlur.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
 }
 .sum {
-  background-image: url(assets/img/bgSumeruBlur.jpg);
+  background-image: url(/assets/img/bgSumeruBlur.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
 }
 .ina {
-  background-image: url(assets/img/bgInadzumaBlur.jpg);
+  background-image: url(/assets/img/bgInadzumaBlur.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
 }
 .mon:hover {
-  background-image: url(assets/img/bgMon.jpg);
+  background-image: url(/assets/img/bgMon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .sum:hover {
-  background-image: url(assets/img/bgSumeru.jpg);
+  background-image: url(/assets/img/bgSumeru.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .ina:hover {
-  background-image: url(assets/img/bgInadzuma.jpg);
+  background-image: url(/assets/img/bgInadzuma.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
